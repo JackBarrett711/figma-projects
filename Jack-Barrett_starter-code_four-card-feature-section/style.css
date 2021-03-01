@@ -1,0 +1,118 @@
+/* Still to do. Icons at bottom right of each box. Getting it in center in mobile view */
+
+@media (min-width: 1440px) {
+  .titlecontainer {
+    width: 540px !important;
+  }
+
+  h2,
+  h1 {
+    font-size: 36px !important;
+  }
+
+  .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .feature-col {
+    margin: 30px;
+  }
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 200, 400, 600;
+  color: #4d4f62;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.titlecontainer {
+  width: 311px;
+  margin: auto;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 24px;
+  margin-top: 85px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 15px;
+  margin-top: 16px;
+  margin-bottom: 76px;
+}
+
+h3,
+p {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+h3 {
+  font-size: 23px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.maintitle,
+.subtitle {
+  text-align: center;
+}
+
+.boxes {
+  margin-bottom: 100px;
+}
+
+.icon-holder {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 25px;
+  padding-right: 30px;
+}
+
+.supervisorbox,
+.teambuilderbox,
+.karmabox,
+.calculatorbox {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  box-shadow: 0px 3px 10px -11px rgba(131, 166, 210, 0.5);
+  border-radius: 10px;
+  width: 311px;
+  height: 222px;
+  margin: auto;
+  margin-bottom: 23px;
+}
+
+.supervisorbox {
+  border-top-color: hsl(180, 62%, 55%);
+}
+.teambuilderbox {
+  border-top-color: hsl(0, 78%, 62%);
+}
+
+.karmabox {
+  border-top-color: hsl(34, 97%, 64%);
+}
+
+.calculatorbox {
+  border-top-color: hsl(212, 86%, 64%);
+}
